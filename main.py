@@ -66,8 +66,8 @@ if __name__ == '__main__':
     pygame.display.set_caption('Victory is ours')
     size = width, height = 800, 400
     screen = pygame.display.set_mode(size)
-    board = Board(16, 8)
-    board.set_view(0, 0, 50)
+    board = Board(14, 7)
+    board.set_view(100, 50, 50)
     running = True
     while running:
         for event in pygame.event.get():
